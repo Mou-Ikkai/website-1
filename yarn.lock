@@ -1927,6 +1927,13 @@ axios@^0.20.0:
   dependencies:
     follow-redirects "^1.10.0"
 
+axios@^0.21.1:
+  version "0.21.1"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
+  integrity sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA==
+  dependencies:
+    follow-redirects "^1.10.0"
+
 axobject-query@^2.1.2:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/axobject-query/-/axobject-query-2.2.0.tgz#943d47e10c0b704aa42275e20edf3722648989be"
@@ -7084,6 +7091,11 @@ logform@^2.2.0:
     ms "^2.1.1"
     triple-beam "^1.3.0"
 
+loglevel@^1.7.1:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/loglevel/-/loglevel-1.7.1.tgz#005fde2f5e6e47068f935ff28573e125ef72f197"
+  integrity sha512-Hesni4s5UkWkwCGJMQGAh71PaLUmKFM60dHvq0zi/vDhhrzuk+4GgNbTXJ12YYQJn6ZKBDNIjYcuQGKudvqrIw==
+
 longest-streak@^2.0.1:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/longest-streak/-/longest-streak-2.0.4.tgz#b8599957da5b5dab64dee3fe316fa774597d90e4"
@@ -11685,12 +11697,13 @@ typescript@^3.8.3:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.7.tgz#98d600a5ebdc38f40cb277522f12dc800e9e25fa"
   integrity sha512-BLbiRkiBzAwsjut4x/dsibSTB6yWpwT5qWmC2OfuCg3GgVQCSgMs4vEctYPhsaGtd0AeuuHMkjZ2h2WG8MSzRw==
 
-typesense@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/typesense/-/typesense-0.3.0.tgz#46d4eaf739109ac21fe2133a841b332b591d92d3"
-  integrity sha512-5t4Ic67sF5cczn8L5izB//5pQvCCYsZanOzyus2X2u96QCcSTvTsyNjWwSSE/Y9D07istBBcL9afgUiEv/RNDg==
+typesense@^0.12.1:
+  version "0.12.1"
+  resolved "https://registry.yarnpkg.com/typesense/-/typesense-0.12.1.tgz#a2f37e69f7513fbd76fbde3b489edfc0dc081b27"
+  integrity sha512-l8RH6tJHdJSiNOkXKmZFAphKoxTatScSXvuSINqkpAVKQ4N1n/YQnJDc93CG8VXZcYXzcMUJXAGHYF/GghGZXQ==
   dependencies:
-    axios "^0.19.0"
+    axios "^0.21.1"
+    loglevel "^1.7.1"
 
 unbzip2-stream@^1.0.9, unbzip2-stream@^1.3.3:
   version "1.4.3"
